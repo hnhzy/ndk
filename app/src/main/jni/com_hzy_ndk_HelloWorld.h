@@ -15,6 +15,46 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_com_hzy_ndk_HelloWorld_sayHello
   (JNIEnv *, jclass);
 
+/*
+ * Class:     com_hzy_ndk_HelloWorld
+ * Method:    callStaticMothod
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_com_hzy_ndk_HelloWorld_callStaticMothod__
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     com_hzy_ndk_HelloWorld
+ * Method:    callStaticMothod
+ * Signature: (I)V
+ */
+JNIEXPORT void JNICALL Java_com_hzy_ndk_HelloWorld_callStaticMothod__I
+  (JNIEnv *, jclass, jint);
+
+/*
+ * Class:     com_hzy_ndk_HelloWorld
+ * Method:    callStaticMothod
+ * Signature: (JLjava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_com_hzy_ndk_HelloWorld_callStaticMothod__JLjava_lang_String_2
+  (JNIEnv *, jclass, jlong, jstring);
+
+/*
+ * Class:     com_hzy_ndk_HelloWorld
+ * Method:    callInstanceMothod
+ * Signature: (I)V
+ */
+JNIEXPORT void JNICALL Java_com_hzy_ndk_HelloWorld_callInstanceMothod__I
+  (JNIEnv *, jobject, jint);
+
+/*
+ * Class:     com_hzy_ndk_HelloWorld
+ * Method:    callInstanceMothod
+ * Signature: (JLjava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_com_hzy_ndk_HelloWorld_callInstanceMothod__JLjava_lang_String_2
+  (JNIEnv *, jobject, jlong, jstring);
+
 #ifdef __cplusplus
 }
 #endif
