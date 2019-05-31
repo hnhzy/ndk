@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <ImageView
+        android:id="@+id/imv_icon"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <com.hzy.ndk.view.ClearEditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        android:hint="请输入内容" />
+
+</LinearLayout>
