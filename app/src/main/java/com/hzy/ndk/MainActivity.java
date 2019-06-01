@@ -49,6 +49,7 @@ public class MainActivity extends BaseActivity {
                 Toast.makeText(MainActivity.this, "点击了右边", Toast.LENGTH_SHORT).show();
             }
         });
+
         /**
          * ndk
          */
